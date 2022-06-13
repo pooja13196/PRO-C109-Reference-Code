@@ -87,16 +87,16 @@ while True:
     image = cv2.flip(image, 1)
     
     # Detect the Hands Landmarks 
-    results = hands.process(image)
+    
 
     # Get landmark position from the processed result
-    hand_landmarks = results.multi_hand_landmarks
+    
 
     # Draw Landmarks
-    drawHandLanmarks(image, hand_landmarks)
+    
 
     # Get Hand Fingers Position        
-    countFingers(image, hand_landmarks)
+    
 
     cv2.imshow("Media Controller", image)
 
